@@ -3,3 +3,12 @@
 // Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 
+const app = new Vue({
+
+    el : '#app',
+    data: {
+        message: 'Hello Vue!',
+        imageUrl: 'https://picsum.photos/200/300',
+    }
+
+});
